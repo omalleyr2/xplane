@@ -1,0 +1,11 @@
+apiVersion: cache.azure.upbound.io/v1beta1
+kind: RedisCache
+metadata:
+  name: rom-redis
+  namespace: crossplane-system
+spec:
+  forProvider:
+    capacity: 1
+    family: C
+    location: West Europe
+    skuName: Basic

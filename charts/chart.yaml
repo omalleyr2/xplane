@@ -1,0 +1,11 @@
+apiVersion: v2
+name: postgresql
+description: Install PostgresQL
+type: application
+version: 11.14.0
+appVersion: "10.16.2"
+
+dependencies:
+  - name: postgresql
+    repository: https://charts.bitnami.com/bitnami
+    version: 11.14.0
