@@ -10,5 +10,7 @@ spec:
     redisVersion: "6"
     redisConfiguration:
       - {}
-    resourceGroupName: moc-scoil-rom 
+    resourceGroupName: moc-scoil-rom
     skuName: Basic
+  providerConfigRef:
+    name: newConfig
