@@ -11,4 +11,4 @@ spec:
     resourceGroupName: moc-scoil-rom
     skuName: Basic
   providerConfigRef:
-    name: newConfig
+    name: new.config
