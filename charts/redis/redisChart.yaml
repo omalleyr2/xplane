@@ -6,9 +6,9 @@ spec:
   forProvider:
     capacity: 1
     family: C
-    location: West Europe
+    location: North Europe
     redisVersion: "6"
-    resourceGroupName: moc-scoil-rom2
+    resourceGroupName: moc-scoil-1
     skuName: Basic
   providerConfigRef:
     name: new.config
