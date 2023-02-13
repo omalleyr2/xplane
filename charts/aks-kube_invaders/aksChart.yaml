@@ -1,0 +1,18 @@
+apiVersion: containerservice.azure.upbound.io/v1beta1
+kind: KubernetesCluster
+metadata:
+  name: kubeinvaders
+spec:
+  forProvider:
+    defaultNodePool:
+      - name: default
+        nodeCount: 1
+        vmSize: Standard_D2_v2
+    dnsPrefix: kinv
+    identity:
+      - type: SystemAssigned
+    location: North Europe
+    resourceGroupName: moc-scoil-1
+    httpApplicationRoutingEnabled: true
+  providerConfigRef:
+    name: new.config
