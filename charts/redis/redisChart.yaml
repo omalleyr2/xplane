@@ -8,7 +8,7 @@ spec:
     family: C
     location: West Europe
     redisVersion: "6"
-    resourceGroupName: moc-scoil-rom
+    resourceGroupName: moc-scoil-rom2
     skuName: Basic
   providerConfigRef:
     name: new.config
